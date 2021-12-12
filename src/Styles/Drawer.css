@@ -1,0 +1,34 @@
+
+html,body{
+  height: 100%;
+}
+#root{
+  height: 100% !important;
+}
+
+
+
+.rs-drawer-content{
+ background-image: url(../images/drawer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+#avatar-label{
+  cursor:pointer;
+}
+
+.avatar-size *{ 
+  /* this * means that everything inside the class avatar-size must have this width height */
+  /*this overwrites the avatar default css provided by rsuite */
+  /*i have looked this from console tyles */ 
+  width: auto !important;
+  height: auto !important;
+  
+}
+
+.avatar-size{
+  background-color: black;
+  font-size: 50px;
+}

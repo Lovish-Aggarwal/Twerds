@@ -1,0 +1,20 @@
+.panel{
+  background-image: url('../images/panel.jpg');
+  margin-top: 30% ;
+  height:250px;
+  border: 2px solid grey;
+}
+
+body{
+  background-image: url(../images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+}
+
+h2{
+  color: white;
+}
+p{
+  color: white;
+}
