@@ -1,14 +1,14 @@
 .panel{
   background-image: url('../images/panel.jpg');
-  margin-top: 30% ;
-  height:250px;
+  margin-top: 25% ;
+  background-size: cover;
+  height:350px;
   border: 2px solid grey;
 }
 
 body{
   background-image: url(../images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
+  backdrop-filter: blur(3.4px);
   background-color: black;
 }
 

@@ -1,6 +1,5 @@
 import React from "react";
 import { Modal } from "rsuite";
-import ModalFooter from "rsuite/lib/Modal/ModalFooter";
 import { useModalState } from "../../../misc/custom-hooks";
 
 const ImgBtnModal = ({ src, fileName }) => {

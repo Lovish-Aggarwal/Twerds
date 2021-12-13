@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 
 
 import App from './App';
+// eslint-disable-next-line no-unused-vars
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
 

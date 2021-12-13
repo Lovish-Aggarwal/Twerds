@@ -44,6 +44,7 @@ const MessageItem = ({ message, handleDelete }) => {
     }
 
     return (
+      // eslint-disable-next-line react/jsx-no-target-blank
       <a href={file.url} target="_blank">
         Download {file.name}
       </a>

@@ -10,10 +10,6 @@ import "../Styles/signIn.css"
 
 
 const SignIn = () => {
-
-
- 
-
   const signInWithProvider = async(provider)=>{
 
     try {
@@ -73,12 +69,12 @@ const SignIn = () => {
    {/* 24 columns in smaller and md and above 12 columns  */}
 
          <Panel shaded className="panel">
-           <div className="text-center">
-             <h2>Welcome To ChitChat</h2>
-             <p>IntroVerts ChitChat Here</p>
+           <div className="text-center" style={{margin:"70px"}}>
+             <h1 style={{color:"white"}}> Twerds </h1>
+             <h5 style={{color:"white"}}>Combine your werds at Twerds</h5>
            </div>
 
-         <div className="mt-3">
+         <div className="mt-1">
            <Button block color="blue" onClick={onFacebookSignIn}>
              <Icon icon="facebook"/> Continue With Facebook 
            </Button>

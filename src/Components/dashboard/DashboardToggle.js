@@ -1,6 +1,7 @@
 import React, { useCallback } from "react";
 import { Alert, Button, Drawer, Icon } from "rsuite";
 import DashBoard from ".";
+// eslint-disable-next-line no-unused-vars
 import { isOfflineForDatabase, isOnlineForDatabase } from "../../App";
 import { useModalState } from "../../misc/custom-hooks";
 import { auth, database } from "../../misc/firebase";
